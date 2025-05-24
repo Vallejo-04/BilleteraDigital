@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.billeteradigital.billeteraapp.ViewController.UsuarioAdminViewController">
+   <children>
+      <SplitPane dividerPositions="0.631578947368421" orientation="VERTICAL" prefHeight="401.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="234.0" prefWidth="598.0">
+               <children>
+                  <Label layoutX="36.0" layoutY="14.0" text="Usuario" />
+                  <Separator layoutX="6.0" layoutY="35.0" prefHeight="1.0" prefWidth="587.0" />
+                  <Button layoutX="65.0" layoutY="210.0" mnemonicParsing="false" text="Crear" />
+                  <Label layoutX="68.0" layoutY="61.0" text="Nombre:" />
+                  <Label layoutX="61.0" layoutY="108.0" text="IdUsuario:" />
+                  <Label layoutX="15.0" layoutY="158.0" text="Correo Electronico:" />
+                  <Label layoutX="290.0" layoutY="61.0" text="Numero Telefono:" />
+                  <Label layoutX="334.0" layoutY="108.0" text="DIreccion:" />
+                  <TextField layoutX="116.0" layoutY="57.0" />
+                  <TextField layoutX="116.0" layoutY="104.0" />
+                  <TextField layoutX="116.0" layoutY="154.0" />
+                  <TextField layoutX="387.0" layoutY="57.0" />
+                  <TextField layoutX="387.0" layoutY="104.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="163.0" prefWidth="598.0">
+               <children>
+                  <TextFlow layoutX="-1.0" prefHeight="144.0" prefWidth="600.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

@@ -4,11 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0368366-9616-4f27-9018-e8784407ec9e" name="Changes" comment="" />
+    <list default="true" id="8c295862-b681-4ab7-83b4-6675d0378353" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/Controller/LogInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/Controller/Usuariocontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/Mapping/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/Mapping/Record/UsuarioDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/ModelFactory/ModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/Proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/Util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/ViewController/AdministradorViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/ViewController/Log_inViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/ViewController/TransaccionViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/ViewController/UsuarioAdminViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/ViewController/UsuarioViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/facade/fachada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Billetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Presupuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Transaccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/billeteradigital/billeteraapp/service/IBilleteraMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/Administrador.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/Categoria.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/Cuenta.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/CuentaAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/Log.in.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/Presupuesto.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/TransaccionAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/Usuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/billeteradigital/billeteraapp/UsuarioAdmin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,22 +63,55 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2upuOE9gYDNiI7qqtWrK1dKmeDZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Santiago",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BilleteraApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Demo&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valle\intellij workspace\intellij projects 3er periodo\ProyectoFinalProgramacion2\BilleteraDigital\co.edu.uniquindio.BilleteraDigital\src\main\resources\co\edu\uniquindio\billeteradigital\billeteraapp" />
+      <recent name="C:\Users\Valle\intellij workspace\intellij projects 3er periodo\ProyectoFinalProgramacion2\BilleteraDigital\co.edu.uniquindio.BilleteraDigital\src\main\resources\co\edu\uniquindio\billeteradigital\billeteraapp\Usuario" />
+      <recent name="C:\Users\Valle\intellij workspace\intellij projects 3er periodo\ProyectoFinalProgramacion2\BilleteraDigital\co.edu.uniquindio.BilleteraDigital\src\main\resources\co\edu\uniquindio\billeteradigital\billeteraapp\Administrador" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="co.edu.uniquindio.BilleteraDigital" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="co.edu.uniquindio.BilleteraDigital" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -47,16 +123,38 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0368366-9616-4f27-9018-e8784407ec9e" name="Changes" comment="" />
-      <created>1742875333151</created>
+      <changelist id="8c295862-b681-4ab7-83b4-6675d0378353" name="Changes" comment="" />
+      <created>1742957804549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742875333151</updated>
-      <workItem from="1742875334438" duration="271000" />
+      <updated>1742957804549</updated>
+      <workItem from="1742957805647" duration="1174000" />
+      <workItem from="1743548928159" duration="117000" />
+      <workItem from="1743551231685" duration="406000" />
+      <workItem from="1743611789328" duration="187000" />
+      <workItem from="1743611987815" duration="276000" />
+      <workItem from="1743986373064" duration="416000" />
+      <workItem from="1744138255045" duration="569000" />
+      <workItem from="1746808380814" duration="7214000" />
+      <workItem from="1747172782977" duration="16000" />
+      <workItem from="1747924353231" duration="10154000" />
+      <workItem from="1747937352311" duration="4196000" />
+      <workItem from="1748061992965" duration="135000" />
+      <workItem from="1748062302688" duration="7660000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

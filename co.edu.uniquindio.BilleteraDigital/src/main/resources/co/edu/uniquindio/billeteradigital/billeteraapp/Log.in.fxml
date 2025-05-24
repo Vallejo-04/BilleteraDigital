@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="319.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.billeteradigital.billeteraapp.ViewController.Log_inViewController">
+   <children>
+      <Label layoutX="59.0" layoutY="112.0" text="Ingrese el numero asociado: " />
+      <Separator layoutX="14.0" layoutY="61.0" prefHeight="1.0" prefWidth="504.0" />
+      <Label layoutX="37.0" layoutY="23.0" text="Log In" />
+      <TextField fx:id="TXTNumeroAsociado" layoutX="225.0" layoutY="108.0" prefHeight="25.0" prefWidth="223.0" />
+      <Label layoutX="93.0" layoutY="160.0" text="Ingrese la contraseña: " />
+      <TextField fx:id="TXTContraseña" layoutX="225.0" layoutY="156.0" prefHeight="25.0" prefWidth="223.0" />
+      <Button fx:id="BTNIngresar" layoutX="244.0" layoutY="265.0" mnemonicParsing="false" onAction="#OnIngresar" text="Ingresar" />
+      <ChoiceBox fx:id="CboxOpcion" layoutX="228.0" layoutY="212.0" prefWidth="150.0" />
+      <Label layoutX="88.0" layoutY="216.0" text="Seleccione una opcion:" />
+   </children>
+</AnchorPane>

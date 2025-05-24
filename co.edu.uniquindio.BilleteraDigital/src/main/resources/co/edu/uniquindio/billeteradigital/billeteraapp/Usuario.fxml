@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="596.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.billeteradigital.billeteraapp.ViewController.UsuarioViewController">
+   <children>
+      <AnchorPane layoutY="35.0" prefHeight="553.0" prefWidth="556.0">
+         <children>
+            <TabPane layoutY="-35.0" prefHeight="588.0" prefWidth="635.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Transaccion">
+                  <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                          <children>
+                              <SplitPane layoutX="1.0" layoutY="4.0" orientation="VERTICAL" prefHeight="624.0" prefWidth="944.0">
+                                  <items>
+                                      <fx:include source="Transaccion.fxml" />
+                                  </items>
+                              </SplitPane>
+                          </children>
+                      </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Cuentas">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="215.0" />
+                  </content>
+                </Tab>
+                  <Tab text="Presupuesto">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                  </Tab>
+                  <Tab text="Categorias">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="Perfil">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+       </AnchorPane>
+   </children>
+</AnchorPane>
